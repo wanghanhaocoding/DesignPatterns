@@ -3,6 +3,7 @@ package com.wanghanhao.design;
 import com.wanghanhao.design.impl.GuestVideoUserService;
 import com.wanghanhao.design.impl.OrdinaryVideoUserService;
 import com.wanghanhao.design.impl.VipVideoUserService;
+import org.junit.Test;
 
 /**
  * @author wanghanhao
@@ -11,7 +12,7 @@ import com.wanghanhao.design.impl.VipVideoUserService;
  * @date 2024/6/19 23:42
  */
 public class ApiTest {
-
+    @Test
     public static void main(String[] args) {
         GuestVideoUserService guest = new GuestVideoUserService();
         guest.advertisement();
